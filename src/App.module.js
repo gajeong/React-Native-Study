@@ -1,9 +1,7 @@
-import styled, { css } from 'styled-components/native'
-export default StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
+import styled, { css } from "styled-components/native"
+export const Container = styled.View`
+  flex: 1;
+  background-color: ${({ theme }) => theme.background};
+  alignitems: "center";
+  justifycontent: "center";
+`
